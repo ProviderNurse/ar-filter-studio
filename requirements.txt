@@ -1,0 +1,15 @@
+# Core runtime — ar-filter-studio 0.6.2 (2026)
+numpy>=2.0,<3.0
+opencv-python>=4.10
+mediapipe>=0.10.14
+onnxruntime-gpu>=1.20 ; platform_system == "Windows"
+Pillow>=10.4
+pydantic>=2.9
+PyYAML>=6.0
+rich>=13.9
+watchdog>=5.0
+httpx>=0.27
+
+# Optional backends — installed on demand by backends/probe.py
+# torch>=2.4        # generative diffusion filters
+# pyvirtualcam>=0.12 # OBS virtual-camera output
