@@ -1,0 +1,1 @@
+"""Core logic: session lifecycle, app runner, effect pipeline."""
