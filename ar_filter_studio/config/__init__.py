@@ -1,0 +1,1 @@
+"""Configuration layer: profiles, schema, and hot-reload."""
