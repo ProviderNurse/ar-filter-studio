@@ -1,0 +1,1 @@
+"""Effect graph: declarative nodes, registry, and pipeline execution."""
