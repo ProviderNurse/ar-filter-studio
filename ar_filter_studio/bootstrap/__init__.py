@@ -1,0 +1,1 @@
+"""Bootstrap layer: CLI, logging, and app lifecycle wiring."""
