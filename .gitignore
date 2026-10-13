@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Model weights / caches (large, do not commit)
+models/weights/
+models/exports/*.onnx
+models/exports/*.tflite
+!models/exports/.gitkeep
+.cache/
+hf_cache/
+
+# Native build artifacts
+native/build/
+*.pyd
+*.so
+*.dll
+*.dylib
+*.obj
+*.o
+
+# Media / captures
+captures/
+recordings/
+*.mp4
+*.mov
+*.png
+*.jpg
+!docs/img/*.png
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local config
+config/local.yaml
+config/secrets.yaml
+.env
+.env.*
