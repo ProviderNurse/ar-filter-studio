@@ -1,0 +1,1 @@
+"""Frame sources: webcam, screen region, and video-file replay."""
